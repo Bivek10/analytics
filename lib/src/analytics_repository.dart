@@ -30,6 +30,7 @@ class SetUserIdFailure extends AnalyticFalure {
 /// {@endtemplate }
 class AnalyticsRepository {
   /// {@macro analytic_repository}
+  ///
   final FirebaseAnalytics _analytics;
 
   AnalyticsRepository({required FirebaseAnalytics analytics})
