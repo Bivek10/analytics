@@ -33,8 +33,9 @@ class AnalyticsRepository {
   ///
   final FirebaseAnalytics _analytics;
 
-  AnalyticsRepository({required FirebaseAnalytics analytics})
-      : _analytics = analytics;
+  AnalyticsRepository(
+    FirebaseAnalytics analytics,
+  ) : _analytics = analytics;
 
   /// Tracks the provided [AnalyticsEvent].
   Future<void> track(AnalyticsEvent event) async {
