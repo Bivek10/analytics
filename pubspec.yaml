@@ -1,0 +1,23 @@
+name: analytics_repository
+description: "A new Flutter package project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  equatable: ^2.0.7
+  firebase_analytics: ^11.3.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  mocktail: ^1.0.4
+  very_good_analysis: ^5.1.0
+
+flutter:
